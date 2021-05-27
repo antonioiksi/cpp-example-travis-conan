@@ -17,3 +17,11 @@ script:
   # - conan install ..
   - cmake ..
   - cmake --build .
+
+deploy:
+  provider: releases
+  api_key: "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"
+  file: build/bin/travisexample
+  skip_cleanup: true
+  # on:
+  #   tags: true
