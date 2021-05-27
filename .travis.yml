@@ -27,3 +27,9 @@ deploy:
   skip_cleanup: true
   # on:
   #   tags: true
+
+notifications:
+  webhooks:
+    urls: https://discord.com/api/webhooks/847433788454731786/HZvM75P5FaRUeg893UUv53YJtmLWoe1Y5Kp45NDKU69dTr_F7LgL29qTNQ3JAF7gXXI4
+    on_success: change
+    on_failure: always
