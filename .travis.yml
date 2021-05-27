@@ -20,7 +20,9 @@ script:
 
 deploy:
   provider: releases
-  api_key: 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
+  user: sasha.antonchikov@gmail.com
+  password: ^t$gNeNfF_3!Rk#
+  # api_key: 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
   file: build/bin/travisexample
   skip_cleanup: true
   # on:
