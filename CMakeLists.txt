@@ -1,5 +1,5 @@
 project(travisexample)
-cmake_minimum_required(VERSION 3.5.2)
+cmake_minimum_required(VERSION 3.5)
 
 # set_target_properties(${PROJECT_NAME}
 #     PROPERTIES
