@@ -23,7 +23,7 @@ deploy:
   # user: sasha.antonchikov@gmail.com
   # password: ^t$gNeNfF_3!Rk#
   # api_key: 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
-  api_key: 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
+  api_key: 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
   file: build/bin/travisexample
   skip_cleanup: true
   # on:
